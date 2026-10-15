@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Request a bid | Union Electric Company, LLC (sample redesign)</title>
+<meta name="description" content="Request a bid from Union Electric Company, LLC. Project type, location, timeline, plans upload.">
+<meta property="og:title" content="Union Electric Company, LLC (sample redesign)">
+<meta property="og:image" content="img/og.jpg">
+<meta name="theme-color" content="#16181b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ribbon" role="note"><div class="wrap"><strong>Sample.</strong>Not affiliated with Union Electric Company. An unsolicited proposed redesign, not their live website.</div></div>
+<header class="site-head">
+<div class="wrap head-row">
+<a class="mark" href="index.html"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+<rect x="3" y="3" width="30" height="30" fill="#fff" stroke="#16181b" stroke-width="2.5"/>
+<text x="18" y="23.5" text-anchor="middle" font-family="Archivo, Arial Narrow, sans-serif" font-weight="800" font-size="12" font-stretch="75%" fill="#16181b">UEC</text>
+<path d="M3 38 H46 M8 33 V47" stroke="#1f4fc0" stroke-width="3.5" fill="none"/>
+</svg><span class="mark-words"><b>Union Electric Company, LLC</b><small>Design &amp; Installation</small></span></a>
+<nav class="nav" aria-label="Main"><a href="index.html"><span>E-000</span>Home</a><a href="capabilities.html"><span>E-100</span>Capabilities</a><a href="projects.html"><span>E-200</span>Projects</a><a href="company.html"><span>E-300</span>Company</a><a href="bid.html" aria-current="page" class="nav-bid"><span>E-400</span>Request a bid</a></nav>
+<a class="head-call" href="tel:+14104831292"><small>Office 7:00 to 4:30</small><span>(410) 483-1292</span></a>
+</div>
+</header>
+<main id="main">
+
+<section class="phero">
+<div class="wrap">
+<p class="sheet-tag">Sheet E-400 &middot; Request a bid</p>
+<h1>Request a bid.</h1>
+<p class="lede">Four fields required. Plans are optional but they get you a sharper number. Prefer the phone? <a href="tel:+14104831292">(410) 483-1292</a>, 7:00 am to 4:30 pm.</p>
+</div>
+</section>
+<section class="sec">
+<div class="wrap">
+<form class="tb" id="bid" action="bid-sent.html" method="get">
+<div class="tb-head"><span>Bid request &middot; UEC</span><span>Sheet E-400</span></div>
+<div class="tb-grid">
+<fieldset class="cell full">
+<legend>Project type</legend>
+<div class="chips">
+<input type="radio" name="type" id="t-commercial" value="commercial" required><label for="t-commercial">Commercial</label>
+<input type="radio" name="type" id="t-industrial" value="industrial"><label for="t-industrial">Industrial</label>
+<input type="radio" name="type" id="t-residential" value="residential"><label for="t-residential">Residential</label>
+<input type="radio" name="type" id="t-generator" value="generator"><label for="t-generator">Generator</label>
+<input type="radio" name="type" id="t-ev" value="ev"><label for="t-ev">EV charging</label>
+<input type="radio" name="type" id="t-fire" value="fire-alarm"><label for="t-fire">Fire alarm</label>
+<input type="radio" name="type" id="t-stage" value="stage-lighting"><label for="t-stage">Theatrical lighting</label>
+<input type="radio" name="type" id="t-solar" value="solar"><label for="t-solar">Solar</label>
+<input type="radio" name="type" id="t-other" value="other"><label for="t-other">Other</label>
+</div>
+</fieldset>
+<div class="cell"><label for="name">Your name</label><input type="text" id="name" name="name" autocomplete="name" required></div>
+<div class="cell"><label for="company">Company <span class="opt">(optional)</span></label><input type="text" id="company" name="company" autocomplete="organization"></div>
+<div class="cell"><label for="email">Email</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+<div class="cell"><label for="phone">Phone <span class="opt">(optional)</span></label><input type="tel" id="phone" name="phone" autocomplete="tel"></div>
+<div class="cell"><label for="city">Job location: city or site</label><input type="text" id="city" name="city" required></div>
+<div class="cell"><label for="state">State</label><select id="state" name="state"><option>Maryland</option><option>Virginia</option><option>DC</option><option>Other</option></select></div>
+<fieldset class="cell full">
+<legend>Timeline</legend>
+<div class="chips">
+<input type="radio" name="when" id="w1" value="asap"><label for="w1">As soon as possible</label>
+<input type="radio" name="when" id="w2" value="30d"><label for="w2">Within 30 days</label>
+<input type="radio" name="when" id="w3" value="1-3m"><label for="w3">1 to 3 months</label>
+<input type="radio" name="when" id="w4" value="3m+"><label for="w4">3 months or more</label>
+<input type="radio" name="when" id="w5" value="budget"><label for="w5">Just budgeting</label>
+</div>
+</fieldset>
+<div class="cell"><label for="due">Bid due date <span class="opt">(optional)</span></label><input type="date" id="due" name="due"></div>
+<div class="cell"><label for="plans">Plans or photos <span class="opt">(optional, PDF, DWG, images)</span></label><input type="file" id="plans" name="plans" multiple accept=".pdf,.dwg,.dxf,image/*"></div>
+<div class="cell full"><label for="scope">Scope: what are you building or fixing?</label><textarea id="scope" name="scope" placeholder="Example: 4 Level 2 chargers in an existing office lot, panel is 20 years old."></textarea></div>
+</div>
+<div class="tb-foot">
+<p>Goes straight to the office. In the live version this request lands in the inbox and on Glen&rsquo;s phone at the same time.</p>
+<button class="btn btn-blue" type="submit">Send bid request</button>
+</div>
+<p class="form-msg" id="form-msg" role="status" tabindex="-1">This is a sample, so nothing was sent. On the live site, this request would now be in the Union Electric office inbox.</p>
+</form>
+</div>
+</section>
+</main>
+<footer class="site-foot">
+<div class="wrap">
+<div class="foot-grid">
+<div class="big"><small>Project</small><b>Union Electric Company, LLC</b>6015 Rossville Blvd.<br>Baltimore, MD 21221</div>
+<div><small>Office</small><a href="tel:+14104831292">(410) 483-1292</a><br>Fax (410) 483-1296</div>
+<div><small>Hours</small>7:00 am to 4:30 pm</div>
+<div><small>Area</small>Maryland, Virginia, DC</div>
+<div><small>Est.</small>November 2002</div>
+</div>
+<p class="foot-note">Sample redesign. Not affiliated with Union Electric Company, LLC and not their live website. All names, projects, clients and contact details are taken from the company&rsquo;s own current website.</p>
+</div>
+</footer>
+</body>
+</html>
